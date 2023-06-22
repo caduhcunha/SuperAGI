@@ -23,7 +23,7 @@ services:
   gui:
     build: ./gui
     environment:
-      - NEXT_PUBLIC_API_BASE_URL=/api
+      - NEXT_PUBLIC_API_BASE_URL=https://caduhcunha-ubiquitous-space-sniffle-q7qr69wqv49h4vj4-3000.preview.app.github.dev/
     networks:
       - super_network
     volumes:
